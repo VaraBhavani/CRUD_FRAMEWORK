@@ -8,8 +8,7 @@
 #define MENU_OPTIONS "read_menu.cfg"
 #define DATA_FILE "user_details.dat"
 #define SIZE 50
-#define MAX_FIELDS 1
-0
+#define MAX_FIELDS 10
 
 void create();
 void show_all();
@@ -296,3 +295,4 @@ int loading_files(char field_names[][SIZE])
     close_field_file();
     return field_count;
 }
+
